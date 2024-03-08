@@ -1,12 +1,12 @@
 import express from "express";
-import carRouter from "./routes/carRouter.mjs";
-import disneyRouter from "./routes/disneyRouter.mjs"
+import indexRouter from "./routes/indexRouter.mjs";
+
 
 const app = express();
 
 app.use(express.json());
-app.use(carRouter);
-app.use(disneyRouter);
+app.use(indexRouter)
+
 
 
 const PORT = process.env.PORT || 3000;

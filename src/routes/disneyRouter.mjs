@@ -10,10 +10,6 @@ import {
 
 const router = Router();
 
-router.get("/", (request, response) => {
-    response.send(disneyData);
-  });
-  
   router.get("/api/disney", (request, response) => {
     const { filter, value } = request.query;
     if (filter && value) {

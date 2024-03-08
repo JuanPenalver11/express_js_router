@@ -9,10 +9,6 @@ import {
 } from "express-validator";
 
 const router = Router();
-
-router.get("/", (request, response) => {
-    response.send(carData);
-  });
   
   router.get("/api/cars", (request, response) => {
     const { filter, value } = request.query;

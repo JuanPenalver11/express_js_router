@@ -23,5 +23,5 @@ export const disneyData = [
         id:5, 
         type:'cow',
         name:'Clarabelle'
-    },
+    }
 ]

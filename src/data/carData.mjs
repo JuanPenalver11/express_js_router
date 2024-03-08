@@ -6,27 +6,27 @@ export const carData = [
     },
     {
         id:2, 
-        type:'Mercedes',
+        brand:'Mercedes',
         date:'2001'
     },
     {
         id:3, 
-        type:'Toyota',
+        brand:'Toyota',
         date:'2024'
     },
     {
         id:4, 
-        type:'Nissan',
+        brand:'Nissan',
         date:'1986'
     },
     {
         id:5, 
-        type:'Jaguar',
+        brand:'Jaguar',
         date:'1970'
     },
     {
         id:6, 
-        type:'Seat',
+        brand:'Seat',
         date:'2014'
     },
 ]

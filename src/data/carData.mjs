@@ -1,0 +1,32 @@
+export const carData = [
+    {
+        id:1, 
+        brand:'Fiat',
+        date:'1990'
+    },
+    {
+        id:2, 
+        type:'Mercedes',
+        date:'2001'
+    },
+    {
+        id:3, 
+        type:'Toyota',
+        date:'2024'
+    },
+    {
+        id:4, 
+        type:'Nissan',
+        date:'1986'
+    },
+    {
+        id:5, 
+        type:'Jaguar',
+        date:'1970'
+    },
+    {
+        id:6, 
+        type:'Seat',
+        date:'2014'
+    },
+]
